@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  max-width: 1440px;
+  height: 715px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background: linear-gradient(180.00deg, rgb(20, 20, 20), rgba(120, 120, 120, 3) 100%);
+}
+
+.navbar {
+  width: 1060px;
+  height: 46px;
+  margin: 0 auto;
+  margin-top: 57px;
+  display: flex;
+  border: 2px black;
+  justify-content: space-between;
+}
+
+.nav-title {
+  width: 132px;
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.nav-title h3 {
+  color: rgb(230, 83, 60);
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 50px;
+}
+.home{
+  width: 92px;
+height: 38px;
+border-radius: 46px;
+background: rgb(230, 83, 60);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px 8px 20px;
+}
+
+.nav-links {
+  width: 465px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+  margin: 0 auto;
+  margin-left: 500px;
+}
+
+.body-shape-container{
+  width: 1060px;
+  height: 580px;
+  border: 2px solid yellow;
+  margin: 0 auto;
+  margin-top: 32px;
+}
