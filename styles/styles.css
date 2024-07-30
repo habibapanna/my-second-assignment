@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
+/* banner section styles */
 .banner {
   max-width: 1440px;
   height: 715px;
   border: 2px solid red;
   margin: 0 auto;
-  background: linear-gradient(180.00deg, rgb(20, 20, 20), rgba(120, 120, 120, 3) 100%);
+  background: linear-gradient(180.00deg, rgb(20, 20, 20), rgba(80, 80, 80, 5) 100%);
 }
 
 .navbar {
@@ -44,16 +45,17 @@
   color: rgb(255, 255, 255);
   margin-right: 50px;
 }
-.home{
+
+.home {
   width: 92px;
-height: 38px;
-border-radius: 46px;
-background: rgb(230, 83, 60);
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 20px 8px 20px;
+  height: 38px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 20px;
 }
 
 .nav-links {
@@ -71,10 +73,123 @@ padding: 8px 20px 8px 20px;
   margin-left: 500px;
 }
 
-.body-shape-container{
+.body-shape-container {
   width: 1060px;
   height: 580px;
   border: 2px solid yellow;
   margin: 0 auto;
   margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.body-shape-content {
+  width: 520px;
+  height: 440px;
+  border: 2px solid yellow;
+  margin-top: 60px;
+}
+
+.body-shape-title h1 {
+  width: 520px;
+  height: 282px;
+  border: 2px solid yellow;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.body-shape-description p {
+  width: 520px;
+  height: 48px;
+  border: 2px solid yellow;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-shape-btn {
+  width: 462px;
+  height: 54px;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-secondary {
+  width: 224px;
+  height: 54px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  background-color: rgba(20, 20, 20, 0.269);
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.image-2 {
+  width: 349px;
+  height: 580px;
+  border: 2px solid yellow;
+  background: url(88);
+ 
+}
+.card{
+  display: flex;
+}
+.card-1{
+  width: 206px;
+height: 96px;
+margin-top: 400px;
+margin-left: 590px;
+border: 2px solid yellow;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.50);
+position: absolute;
+color: rgb(255, 255, 255);
+}
+.card-2{
+  width: 193px;
+  height: 98px;
+border: 2px solid yellow;
+position: absolute;
+margin-left: 950px;
+margin-top: 150px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.card-1 h2{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+}
+.card-1 p{
+  color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
 }
