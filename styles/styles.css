@@ -16,7 +16,6 @@
 .banner {
   max-width: 1440px;
   height: 715px;
-  border: 2px solid red;
   margin: 0 auto;
   background: linear-gradient(180.00deg, rgb(20, 20, 20), rgba(80, 80, 80, 5) 100%);
 }
@@ -152,7 +151,6 @@
 .image-2 {
   width: 349px;
   height: 580px;
-  background: url(88);
  
 }
 .card{
@@ -163,7 +161,6 @@
 height: 96px;
 margin-top: 400px;
 margin-left: 590px;
-border: 2px solid yellow;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
@@ -204,7 +201,6 @@ margin-left: 615px;
 .card-2{
   width: 193px;
   height: 98px;
-border: 2px solid yellow;
 position: absolute;
 margin-left: 950px;
 margin-top: 150px;
@@ -238,8 +234,7 @@ letter-spacing: 1px;
 /* main section styles is here */
 .change-habits-container{
   width: 1044px;
-height: 452px;
-border: 2px solid green;
+height: 455px;
 margin: 0 auto;
 margin-top: 114px;
 background-color: black;
@@ -361,3 +356,52 @@ margin-top: 10px;
   margin-left: 24px;
 }
 /* Change your habit section */
+.run-extra-container{
+  width: 1060px;
+height: 371px;
+margin: 0 auto;
+margin-top: 100px;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+display: flex;
+justify-content: space-between;
+}
+.run-extra-content{
+  width: 443px;
+  height: 290px;
+  margin-top: 41px;
+  margin-left: 54px;
+  margin-bottom: 40px;
+}
+.run-extra-content h1{
+  width: 443px;
+  height: 116px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+letter-spacing: 1px;
+}
+.run-extra-content p{
+  width: 443px;
+  height: 72px;
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 1px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.run-image img{
+  width: 366px;
+height: 312px;
+margin-top: 30px;
+margin-right: 32px;
+margin-bottom: 29px;
+border-radius: 18px;
+
+}
+/* run extra section end */
+ 
