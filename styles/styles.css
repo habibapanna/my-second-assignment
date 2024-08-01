@@ -6,13 +6,15 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-.body{
+
+.body {
   max-width: 1440px;
   height: 2811px;
   margin: 0 auto;
   border: 2px solid black;
   background-color: rgb(20, 20, 20);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +26,8 @@
   max-width: 1440px;
   height: 715px;
   margin: 0 auto;
-  background: linear-gradient(180.00deg, rgb(20, 20, 20),rgb(50, 50, 50) 100%);
+  border: 2px solid black;
+  background: linear-gradient(180.00deg, rgb(20, 20, 20), rgb(50, 50, 50) 100%);
 }
 
 .navbar {
@@ -33,7 +36,7 @@
   margin: 0 auto;
   margin-top: 57px;
   display: flex;
-  border: 2px black;
+  border: 1px black;
   justify-content: space-between;
 }
 
@@ -117,12 +120,12 @@
   width: 520px;
   height: 48px;
   color: rgba(255, 255, 255, 0.5);
-  font-family: " Inter";
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
   line-height: 20px;
-  letter-spacing: 1px;
+  letter-spacing:0.5px;
 }
 
 .body-shape-btn {
@@ -502,16 +505,18 @@
   color: rgba(255, 255, 255, 0.5);
   font-family: "Inter";
   font-size: 14px;
-font-weight: 400;
-padding: 12px 10px 12px 20px;
+  font-weight: 400;
+  padding: 12px 10px 12px 20px;
 }
-#item-1{
-  color: rgb(255, 255, 255); 
+
+#item-1 {
+  color: rgb(255, 255, 255);
   font-family: "Inter";
-font-size: 16px;
-font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
 }
-#item-2{
+
+#item-2 {
   color: rgb(255, 255, 255);
   font-family: "Inter";
   font-size: 16px;
@@ -533,37 +538,40 @@ font-weight: 500;
   margin-right: 189px;
   margin-top: 49px;
 }
-.calculate-bmi h2{
+
+.calculate-bmi h2 {
   width: 443px;
   height: 34px;
   color: rgb(255, 255, 255);
   font-family: "Inter";
-font-size: 28px;
-font-weight: 900;
-letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
-.calculate-bmi p{
+
+.calculate-bmi p {
   width: 577px;
   height: 48px;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Inter";
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 1px;
-margin-top: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 14px;
 }
+
 .box {
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   font-family: "Inter";
   color: rgba(255, 255, 255, 0.6);
-font-size: 16px;
-font-weight: 400;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 12px 20px 12px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
 }
 
 .box-container {
@@ -574,8 +582,101 @@ padding: 12px 20px 12px 20px;
   gap: 12px;
   margin-top: 34px;
   margin-bottom: 34px;
-  
+
 }
-#box-5{
+
+#box-5 {
   grid-column: span 2;
 }
+
+/* meet our team section styles */
+.meet-team-container {
+  position: relative;
+  width: 1060px;
+  height: 782px;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+
+.meet-team-content {
+  width: 671px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.meet-team-content h2 {
+  width: 464px;
+  height: 58px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.meet-team-content p {
+  width: 671px;
+  height: 48px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter";
+  letter-spacing: 1px;
+  margin-top: 14px;
+}
+.meet-team-image{
+  width: 1060px;
+height: 604px;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin-top: 58px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+}
+.image img{
+  width: 326.67px;
+height: 272px;
+border-radius: 18px;
+margin-left: 16px;
+margin-top: 16px;
+margin-bottom: 0px;
+}
+.fitness-container{
+  width: 1440px;
+height: 489px;
+border: 2px solid blue;
+margin: 0 auto;
+background: rgb(34, 34, 34);
+}
+.fitness-content{
+  width: 1059px;
+height: 249px;
+border: 2px solid blue;
+margin: 0 auto;
+margin-top: 66px;
+display: flex;
+justify-content: space-between;
+}
+.fitness-description{
+  width: 443px;
+  height: 176px;
+  border: 2px solid red;
+}
+.fitness-task-1{
+  width: 181px;
+height: 249px;
+border: 2px solid green;
+}
+.fitness-task-2{
+  width: 181px;
+height: 249px;
+border: 2px solid white;
+}
+
+
