@@ -654,74 +654,71 @@ grid-template-columns: repeat(3, 1fr);
 .image-1{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer1.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-top: 22px;
+margin-left: 15px;
 }
 .image-2{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer2.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-top: 22px;
+margin-left: 13px;
 }
 .image-3{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer3.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-top: 22px;
+margin-left: 10px;
 }
 .image-4{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer4.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-left: 15px;
 }
 .image-5{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer5.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-left: 13px;
 }
 .image-6{
   width: 326.67px;
 height: 272px;
-border: 2px solid red;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 background-image: url(/images/trainer6.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin-left: 10px;
 }
 .fitness-container{
   width: 1440px;
