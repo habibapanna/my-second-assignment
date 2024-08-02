@@ -6,12 +6,6 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-.body-3{
-  max-width: 1440px;
-height: 4650px;
-background: rgb(0, 0, 0);
-margin: 0 auto;
-}
 
 .body {
   max-width: 1440px;
@@ -660,7 +654,7 @@ grid-template-columns: repeat(3, 1fr);
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer1.png);
 background-position: center;
 background-size: cover;
@@ -672,7 +666,7 @@ margin-left: 15px;
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer2.png);
 background-position: center;
 background-size: cover;
@@ -684,7 +678,7 @@ margin-left: 13px;
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer3.png);
 background-position: center;
 background-size: cover;
@@ -696,7 +690,7 @@ margin-left: 10px;
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer4.png);
 background-position: center;
 background-size: cover;
@@ -707,7 +701,7 @@ margin-left: 15px;
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer5.png);
 background-position: center;
 background-size: cover;
@@ -718,7 +712,7 @@ margin-left: 13px;
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
+/* background: rgba(0, 0, 0, 0.2); */
 background-image: url(/images/trainer6.png);
 background-position: center;
 background-size: cover;
