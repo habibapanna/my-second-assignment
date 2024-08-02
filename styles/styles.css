@@ -6,6 +6,12 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+.body-3{
+  max-width: 1440px;
+height: 4650px;
+background: rgb(0, 0, 0);
+margin: 0 auto;
+}
 
 .body {
   max-width: 1440px;
@@ -161,10 +167,9 @@
   font-weight: 500;
 }
 
-.image-2 {
+.body-shape-image {
   width: 349px;
   height: 580px;
-
 }
 
 .card {
@@ -474,7 +479,7 @@
 }
 
 .bmi-chart-calculation {
-  width: 1440px;
+  max-width: 1440px;
   height: 487px;
   margin: 0 auto;
   margin-top: 88px;
@@ -721,7 +726,7 @@ background-repeat: no-repeat;
 margin-left: 10px;
 }
 .fitness-container{
-  width: 1440px;
+  max-width: 1440px;
 height: 489px;
 margin: 0 auto;
 border: 1px solid rgb(34, 34, 34);
@@ -797,6 +802,13 @@ font-size: 22px;
 font-weight: 400;
 margin-top: 36px;
 }
-
+/* footer section end */
+/* responsive starts */
+@media screen and (min-width: 576px) {
+  .navbar{
+    width: ;
+  }
+  
+}
 
 
