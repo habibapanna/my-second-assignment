@@ -640,84 +640,159 @@ grid-template-columns: repeat(3, 1fr);
 }
 
 .meet-team-image h3{
+  position: absolute;
   color: rgb(255, 255, 255);
-  margin-top: 200px;
+  margin-top: 220px;
   margin-left: 20px;
   font-family: "inter";
 }
 .meet-team-image h4{
+  position: absolute;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 240px;
   margin-left: 20px;
   font-family: "inter";
 }
-.image-1{
+.image-1 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 240px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-1 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 260px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-1 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer1.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+background: rgba(0, 0, 0, 0.2);
 margin-top: 22px;
 margin-left: 15px;
 }
-.image-2{
+.image-2 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer2.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+background: rgba(0, 0, 0, 0.2);
 margin-top: 22px;
 margin-left: 13px;
 }
-.image-3{
+.image-2 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 240px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-2 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 260px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-3 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer3.png);
+background: rgba(0, 0, 0, 0.2);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin-top: 22px;
 margin-left: 10px;
 }
-.image-4{
+.image-3 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 240px;
+  margin-left: 25px;
+  font-family: "inter";
+}
+.image-3 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 260px;
+  margin-left: 25px;
+  font-family: "inter";
+}
+.image-4 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer4.png);
+background: rgba(0, 0, 0, 0.2);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 15px;
 }
-.image-5{
+.image-4 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 220px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-4 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 240px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-5 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer5.png);
+background: rgba(0, 0, 0, 0.2);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 13px;
 }
-.image-6{
+.image-5 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 220px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-5 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 240px;
+  margin-left: 30px;
+  font-family: "inter";
+}
+.image-6 img{
   width: 326.67px;
 height: 272px;
 border-radius: 18px;
-/* background: rgba(0, 0, 0, 0.2); */
-background-image: url(/images/trainer6.png);
+background: rgba(0, 0, 0, 0.2);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 10px;
+}
+.image-6 h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 220px;
+  margin-left: 25px;
+  font-family: "inter";
+}
+.image-6 h4{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 240px;
+  margin-left: 25px;
+  font-family: "inter";
 }
 .fitness-container{
   max-width: 1440px;
