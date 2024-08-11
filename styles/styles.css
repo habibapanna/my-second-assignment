@@ -6,12 +6,27 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
-
+@font-face {
+font-family: "Miama";
+font-style: italic;
+font-weight: 400;
+src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") format("woff");
+}
+.shape{
+  font-family: "Miama";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 150px;
+}
+.full-body{
+  width: 1440px;
+  margin: 0 auto;
+  /* background-color: rgb(20, 20, 20); */
+}
 .body {
   max-width: 1440px;
   height: 2811px;
   margin: 0 auto;
-  border: 2px solid rgb(20, 20, 20);
   background-color: rgb(20, 20, 20);
 }
 
@@ -26,17 +41,19 @@
   max-width: 1440px;
   height: 715px;
   margin: 0 auto;
-  border: 2px solid rgb(20, 20, 20);
   background: linear-gradient(180.00deg, rgb(20, 20, 20), rgb(50, 50, 50) 100%);
+  border: 1px solid rgba(48, 48, 48, 0.50);
 }
-
+.hamburger i{
+  color: rgb(255, 255, 255);
+  display: none;
+}
 .navbar {
-  width: 1060px;
+  width: 1100px;
   height: 46px;
   margin: 0 auto;
   margin-top: 57px;
   display: flex;
-  border: 1px black;
   justify-content: space-between;
 }
 
@@ -60,7 +77,7 @@
 .nav-links a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin-right: 50px;
+  margin-right: 63px;
 }
 
 .home {
@@ -87,7 +104,6 @@
   justify-content: flex-start;
   align-items: center;
   padding: 4px;
-  margin: 0 auto;
   margin-left: 500px;
 }
 
@@ -99,6 +115,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+
 }
 
 .body-shape-content {
@@ -111,9 +128,10 @@
   width: 520px;
   height: 282px;
   color: rgb(255, 255, 255);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 75px;
   font-weight: 800;
+  line-height: 90px;
   letter-spacing: 0.5px;
 }
 
@@ -250,6 +268,11 @@
   margin-top: 2px;
   letter-spacing: 1px;
 }
+.space{
+  width: 1440px;
+  height: 114px;
+  background-color:  rgba(20, 20, 20);;
+}
 
 /* banner section end */
 /* main section styles is here */
@@ -257,7 +280,6 @@
   width: 1044px;
   height: 455px;
   margin: 0 auto;
-  margin-top: 114px;
 }
 
 .change-habits-content {
@@ -438,6 +460,8 @@
   margin-top: 30px;
   margin-right: 32px;
   margin-bottom: 29px;
+  object-fit: none;
+  object-position: 67% 30%;
   border-radius: 18px;
 
 }
@@ -857,8 +881,9 @@ font-size: 22px;
 font-weight: 400;
 }
 .footer-line{
-  width: 1059px;
+  max-width: 1059px;
   border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-right: 191.5px;
   margin-left: 189px;
   margin-top: 79px;
 }
@@ -874,9 +899,135 @@ margin-top: 36px;
 }
 /* footer section end */
 /* responsive starts */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
+   
+  .body-shape-container,
+  .change-habits-container-rules,
+  .run-extra-container,
+  .bmi-chart-calculation,
+  .fitness-content{
+    flex-direction: column;
+  }
   .navbar{
-    width: ;
+    position: absolute;
+width: 353px;
+height: 43px;
+    flex-direction: row;
+  }
+  .hamburger i{
+    display: block;
+    margin-left: 0;
+  }
+  .nav-links{
+    display: none;
+  }
+  .body-shape-container{
+    width: 482px;
+    margin-left: 0;
+  }
+  .body-shape-content {
+    width: 353px;
+    height: 335px;
+  }
+  .body-shape-title h1[
+    font-size: ;
+  ]
+  .meet-team-image{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-1,
+  .card-2,
+  .circle{
+    position: ;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .full-body{
+   
+  }
+  .body {
+   
+  }
+  .banner {
+ 
+
+  }
+  .navbar{
+   
+  }
+  .nav-title {
+   
+  }
+  .nav-title h3 {
+    
+  }
+  .nav-links{
+    
+  }
+  .home {
+   
+  }
+  .nav-links a {
+    
+  }
+  .body-shape-container {
+   
+  }
+  
+  .body-shape-content {
+   
+  }
+  
+  .body-shape-title h1 {
+    
+  }
+  .body-shape-description p {
+    
+  }
+  .btn-primary {
+   
+  }
+  
+  .btn-secondary {
+    
+  }
+  .body-shape-image {
+    
+  }
+  
+  .card {
+   
+    
+  }
+  .card-1 {
+    
+  }
+  
+  .card-1 h2 {
+    
+  }
+  
+  .card-1 p {
+    
+  }
+  
+  .circle {
+    
+  
+  
+  }
+  
+  .card-2 {
+    
+  }
+  
+  .card-2 h1 {
+    
+  
+  }
+  
+  .card-2 p {
+    
   }
   
 }
