@@ -6,23 +6,26 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+
 @font-face {
-font-family: "Miama";
-font-style: italic;
-font-weight: 400;
-src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") format("woff");
+  font-family: "Miama";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") format("woff");
 }
-.shape{
+
+.shape {
   font-family: "Miama";
   font-style: italic;
   font-weight: 400;
   font-size: 150px;
 }
-.full-body{
-  width: 1440px;
+
+.full-body {
+  width: 100%;
   margin: 0 auto;
-  /* background-color: rgb(20, 20, 20); */
 }
+
 .body {
   max-width: 1440px;
   height: 2811px;
@@ -44,10 +47,12 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   background: linear-gradient(180.00deg, rgb(20, 20, 20), rgb(50, 50, 50) 100%);
   border: 1px solid rgba(48, 48, 48, 0.50);
 }
-.hamburger i{
+
+.hamburger i {
   color: rgb(255, 255, 255);
   display: none;
 }
+
 .navbar {
   width: 1100px;
   height: 46px;
@@ -144,7 +149,7 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   font-weight: 400;
   margin-top: 20px;
   line-height: 20px;
-  letter-spacing:0.5px;
+  letter-spacing: 0.5px;
 }
 
 .body-shape-btn {
@@ -181,6 +186,7 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
 }
 
 .body-shape-image {
+  /* position: relative; */
   width: 349px;
   height: 580px;
 }
@@ -268,10 +274,13 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   margin-top: 2px;
   letter-spacing: 1px;
 }
-.space{
-  width: 1440px;
+
+.space {
+  max-width: 1440px;
   height: 114px;
-  background-color:  rgba(20, 20, 20);;
+  background-color: rgba(20, 20, 20);
+  margin: 0 auto;
+  border: none;
 }
 
 /* banner section end */
@@ -435,7 +444,7 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   width: 443px;
   height: 116px;
   color: rgb(255, 255, 255);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 48px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -445,7 +454,7 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   width: 443px;
   height: 72px;
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -653,383 +662,579 @@ src: local("Miama"), url("https://fonts.cdnfonts.com/s/302/Miama-Regular.woff") 
   letter-spacing: 1px;
   margin-top: 14px;
 }
-.meet-team-image{
+
+.meet-team-image {
   width: 1060px;
-height: 604px;
-border-radius: 18px;
-background: rgba(255, 255, 255, 0.1);
-margin-top: 58px;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+  height: 604px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
 }
 
-.meet-team-image h3{
+.meet-team-image h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 220px;
   margin-left: 20px;
   font-family: "inter";
 }
-.meet-team-image h4{
+
+.meet-team-image h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 240px;
   margin-left: 20px;
   font-family: "inter";
 }
-.image-1 h3{
+
+.image-1 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 240px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-1 h4{
+
+.image-1 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 260px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-1 img{
+
+.image-1 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-margin-top: 22px;
-margin-left: 15px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 22px;
+  margin-left: 15px;
 }
-.image-2 img{
+
+.image-2 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-margin-top: 22px;
-margin-left: 13px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 22px;
+  margin-left: 13px;
 }
-.image-2 h3{
+
+.image-2 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 240px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-2 h4{
+
+.image-2 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 260px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-3 img{
+
+.image-3 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin-top: 22px;
-margin-left: 10px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 22px;
+  margin-left: 10px;
 }
-.image-3 h3{
+
+.image-3 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 240px;
   margin-left: 25px;
   font-family: "inter";
 }
-.image-3 h4{
+
+.image-3 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 260px;
   margin-left: 25px;
   font-family: "inter";
 }
-.image-4 img{
+
+.image-4 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin-left: 15px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 15px;
 }
-.image-4 h3{
+
+.image-4 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 220px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-4 h4{
+
+.image-4 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 240px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-5 img{
+
+.image-5 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin-left: 13px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 13px;
 }
-.image-5 h3{
+
+.image-5 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 220px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-5 h4{
+
+.image-5 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 240px;
   margin-left: 30px;
   font-family: "inter";
 }
-.image-6 img{
+
+.image-6 img {
   width: 326.67px;
-height: 272px;
-border-radius: 18px;
-background: rgba(0, 0, 0, 0.2);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin-left: 10px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 10px;
 }
-.image-6 h3{
+
+.image-6 h3 {
   position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 220px;
   margin-left: 25px;
   font-family: "inter";
 }
-.image-6 h4{
+
+.image-6 h4 {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 240px;
   margin-left: 25px;
   font-family: "inter";
 }
-.fitness-container{
+
+.fitness-container {
   max-width: 1440px;
-height: 489px;
-margin: 0 auto;
-border: 1px solid rgb(34, 34, 34);
-background: rgb(34, 34, 34);
+  height: 489px;
+  margin: 0 auto;
+  border: 1px solid rgb(34, 34, 34);
+  background: rgb(34, 34, 34);
 }
-.fitness-content{
+
+.fitness-content {
   width: 1059px;
-height: 249px;
-margin: 0 auto;
-margin-top: 66px;
-display: flex;
-justify-content: space-between;
+  height: 249px;
+  margin: 0 auto;
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-between;
 }
-.fitness-description{
+
+.fitness-description {
   width: 443px;
   height: 200px;
 }
-.fitness-description h1{
+
+.fitness-description h1 {
   width: 276px;
-height: 84px;
-color: rgb(230, 83, 60);
-font-family: "Inter";
-font-size: 70px;
-font-weight: 800;
-letter-spacing: 0.5px
+  height: 84px;
+  color: rgb(230, 83, 60);
+  font-family: "Inter";
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 0.5px
 }
-.fitness-description p{
+
+.fitness-description p {
   width: 443px;
-height: 90px;
-margin-top: 20px;
+  height: 90px;
+  margin-top: 20px;
   color: rgba(255, 255, 255, 0.5);
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.5px
 }
-.fitness-task-1{
+
+.fitness-task-1 {
   width: 181px;
-height: 249px;
+  height: 249px;
 }
-.fitness-task-1 h2{
+
+.fitness-task-1 h2 {
   width: 181px;
-height: 38px;
-color: rgb(255, 255, 255);
-font-family: "Inter";
-font-size: 32px;
-font-weight: 700;
+  height: 38px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
 }
-.fitness-task-item{
-margin-top: 39px;
+
+.fitness-task-item {
+  margin-top: 39px;
 }
-.fitness-task-1 h4{
+
+.fitness-task-1 h4 {
   width: 181px;
   height: 43px;
-color: rgba(255, 255, 255, 0.5);
-font-family: "Inter";
-font-size: 22px;
-font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 400;
 }
-.footer-line{
+
+.footer-line {
   max-width: 1059px;
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin-right: 191.5px;
   margin-left: 189px;
   margin-top: 79px;
 }
-.footer-description{
+
+.footer-description {
   width: 350px;
-height: 24px;
-margin: 0 auto;
-color: rgba(255, 255, 255, 0.5);
-font-family: "Inter";
-font-size: 22px;
-font-weight: 400;
-margin-top: 36px;
+  height: 24px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 36px;
 }
+
 /* footer section end */
 /* responsive starts */
 @media screen and (max-width: 576px) {
-   
+
   .body-shape-container,
   .change-habits-container-rules,
   .run-extra-container,
   .bmi-chart-calculation,
-  .fitness-content{
+  .fitness-content {
     flex-direction: column;
   }
-  .navbar{
-    position: absolute;
-width: 353px;
-height: 43px;
-    flex-direction: row;
+  .bmi-chart-calculation {
+    max-width: 1440px;
+    height: 772px;
+    margin: 0 auto;
+    margin-top: 88px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
   }
-  .hamburger i{
+  
+  .bmi-chart h2 {
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-left: 187px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
+  
+  .bmi-container {
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 78px;
+  }
+  .bmi-container h1 {
+    width: 500px;
+    height: 58px;
+    font-size: 33px;
+  }
+  .bmi-container p {
+    width: 260px;
+    height: 48px;
+    margin-top: 0px;
+    letter-spacing: 0px;
+  }
+  .run-extra-container{
+    width: 275px;
+    height: 665px;
+    margin-left: 0;
+  }
+  .run-extra-content{
+    margin-left: 0;
+  }
+  .run-extra-content h1 {
+    width: 443px;
+    height: 116px;
+    font-size: 38px;
+  }
+  
+  .run-extra-content p {
+    width: 265px;
+    height: 75px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .run-image img {
+    width: 270px;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 29px;
+    object-position: 66% 30%;
+  
+  }
+  
+
+  .banner {
+    width: 275px;
+    height: 1150px;
+    margin-left: 0;
+  }
+  .navbar {
+    margin-left: 0;
+    width: 271px;
+    height: 43px;
+  }
+
+  .hamburger i {
     display: block;
     margin-left: 0;
   }
-  .nav-links{
+
+  .nav-title h3 {
+    font-size: 32px;
+  }
+
+  .nav-links {
     display: none;
   }
-  .body-shape-container{
+
+  .body-shape-container {
     width: 482px;
     margin-left: 0;
+   
   }
+
   .body-shape-content {
-    width: 353px;
-    height: 335px;
+    width: 354px;
+    height: 360px;
   }
-  .body-shape-title h1[
-    font-size: ;
-  ]
-  .meet-team-image{
+
+  .body-shape-title h1 {
+    width: 240px;
+    height: 160px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 90px;
+    line-height: 120%;
+    letter-spacing: 0;
+  }
+
+  .shape {
+    font-weight: 400;
+    font-size: 75px;
+  }
+
+  .body-shape-description p {
+    width: 240px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+
+  .body-shape-btn {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+  }
+
+  .btn-primary {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .btn-secondary {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    margin-left: 14px;
+  }
+
+  .body-shape-image {
+    width: 50%;
+    height: 350px;
+    object-fit: none;
+    object-position: 67% 30%;
+    margin-top: 40px;
+  }
+.card-1{
+  width: 150px;
+  height: 90px;
+  margin-top: 860px;
+margin-left: 10px;
+}
+.card-2{
+  width: 150px;
+  height: 90px;
+  margin-top: 620px;
+  margin-left: 110px;
+}
+.card-2 h1 {
+  font-size: 30px;
+}
+  .card-2 p {
+letter-spacing: 0px;
+margin-left: 15px;
+font-size: 12px;
+  }
+.card-1 h2 {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.card-1 p {
+  font-size: 12px;
+  margin-left: 60px;
+  letter-spacing: 0px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+ margin-top: 890px;
+  margin-left: 25px;
+}
+.space{
+  width: 275px;
+  margin-left: 0;
+  display: none;
+}
+.body{
+  width: 275px;
+  margin-left: 0;
+}
+.change-habits-container {
+  width: 275px;
+  height: 1200px;
+  margin-left: 0;
+}
+.change-habits-content {
+  width: 260px;
+  margin-left: 0;
+}
+.change-habits-content h1 {
+  height: 58px;
+  letter-spacing: 0px;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.change-habits-content p {
+  width: 250px;
+  letter-spacing: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+  .meet-team-image {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .card-1,
   .card-2,
-  .circle{
+  .circle {
     position: ;
   }
 }
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .full-body{
-   
-  }
-  .body {
-   
-  }
-  .banner {
- 
+  .full-body {}
 
-  }
-  .navbar{
-   
-  }
-  .nav-title {
-   
-  }
-  .nav-title h3 {
-    
-  }
-  .nav-links{
-    
-  }
-  .home {
-   
-  }
-  .nav-links a {
-    
-  }
-  .body-shape-container {
-   
-  }
-  
-  .body-shape-content {
-   
-  }
-  
-  .body-shape-title h1 {
-    
-  }
-  .body-shape-description p {
-    
-  }
-  .btn-primary {
-   
-  }
-  
-  .btn-secondary {
-    
-  }
-  .body-shape-image {
-    
-  }
-  
-  .card {
-   
-    
-  }
-  .card-1 {
-    
-  }
-  
-  .card-1 h2 {
-    
-  }
-  
-  .card-1 p {
-    
-  }
-  
-  .circle {
-    
-  
-  
-  }
-  
-  .card-2 {
-    
-  }
-  
-  .card-2 h1 {
-    
-  
-  }
-  
-  .card-2 p {
-    
-  }
-  
+  .body {}
+
+  .banner {}
+
+  .navbar {}
+
+  .nav-title {}
+
+  .nav-title h3 {}
+
+  .nav-links {}
+
+  .home {}
+
+  .nav-links a {}
+
+  .body-shape-container {}
+
+  .body-shape-content {}
+
+  .body-shape-title h1 {}
+
+  .body-shape-description p {}
+
+  .btn-primary {}
+
+  .btn-secondary {}
+
+  .body-shape-image {}
+
+  .card {}
+
+  .card-1 {}
+
+  .card-1 h2 {}
+
+  .card-1 p {}
+
+  .circle {}
+
+  .card-2 {}
+
+  .card-2 h1 {}
+
+  .card-2 p {}
+
 }
-
-
