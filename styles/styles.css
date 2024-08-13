@@ -1342,23 +1342,49 @@ font-size: 12px;
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  .body-shape-container{
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: ;
+    position: inherit;
+    height: 1000px;
+    flex-direction: column;
+  }
+  .banner {
+    max-width: 600px;
+    height: 1200px;
+    margin: 0 auto;
+    margin-left: 0;
+  }
   .full-body {}
 
   .body {}
-
-  .banner {}
-
-  .navbar {}
+  .navbar {
+    width: 1100px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 57px;
+    display: flex;
+    justify-content: left;
+  }
 
   .nav-title {}
 
   .nav-title h3 {}
 
-  .nav-links {}
+  .nav-links {
+    width: 300px;
+    margin-left: 100px;
+    font-size: 12px;
+  }
 
   .home {}
 
-  .nav-links a {}
+  .nav-links a {
+    margin-right: 20px;
+  }
 
   .body-shape-container {}
 
@@ -1376,15 +1402,19 @@ font-size: 12px;
 
   .card {}
 
-  .card-1 {}
+  .card-1 {
+    margin-left: 0;
+    margin-top: 890px;
+  }
+  .circle {
+    margin-left: 20px;
+    margin-top: 920px;
+  }
 
-  .card-1 h2 {}
-
-  .card-1 p {}
-
-  .circle {}
-
-  .card-2 {}
+  .card-2 {
+    margin-left: 200px;
+    margin-top: 650px;
+  }
 
   .card-2 h1 {}
 
